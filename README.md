@@ -7,9 +7,10 @@ bip39checksumFinder.py
 
 
 ## description 
-BIP-39 tool. This code finds all possible checksum words for a 12 or 24 mnemonic (seed phrase)
+BIP-39 tool. 
+This code finds all possible checksum words for a 12 or 24 mnemonic (seed phrase)
 
-BIP-39 Enables storing your private keys as a set of words instead of a binary string
+BIP-39 enables storing your private keys as a set of words instead of a binary string.
 For more info see the [BIP39 spec](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki) 
 
 This code allows you to choose the first 11 or 23 seed words and returns a list of all possible checksum words, so you can choose from that list the 12th or 24th word for your mnemonic / seed.
@@ -33,7 +34,7 @@ pip3 install mnemonic
 - `$ python3 bip39checksumFinder.py`
 - 
 - Enter the 11 or 23 words sequence (single line, words separed by a space) you want to test
-- You will get a list of all 12 or 24 words bip39 that validate the checksum
+- You will get a list of all 12th or 24th words bip39 that validate the checksum
 	- 128 possible words for a 12 word seed
 	- 8 possible words for a 24 word seed
 
