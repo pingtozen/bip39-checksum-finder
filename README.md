@@ -110,7 +110,8 @@ m = mnemonic.Mnemonic("spanish")
 
 
 ## donate:
-If you liked this code, you can donate to: https://getalby.com/p/pingtospace
+If you liked this code, you can donate to: https://coinos.io/pingtozen
+LN: pingtozen@coinos.io
 
 
 ## license:
